@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1 {
+   color:black;
+}
+.botao{
+  border: solid 1px black;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+  background-color: black;
+  color: white;
+  transform: scale(1.2)
+}
